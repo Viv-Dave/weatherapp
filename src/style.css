@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #B9D9EB;
+    font-family: sans-serif;
+}
+.blueCard {
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 1fr 0.1fr;
+    grid-template-rows: 0.5fr 0.1fr;
+    padding: 5px;
+    background-image: linear-gradient(to top, #4facfe 0%, #00f2fe 100%);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 2px solid white;
+}
+.card {
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border: 2px solid white;
+    background-color: rgb(0, 0, 0,0.1);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+input {
+    width: 10rem;
+    height: 2.4rem;
+    font-weight: 900;
+    border-width: 2px;
+    border: 2px solid black;
+}
+.button {
+    color: #ecf0f1;
+    font-size: 17px;
+    background-color: #1E90FF;
+    border: 1px solid #0061fd;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    box-shadow: 0px 6px 0px #0035d3;
+    transition: all 0.1s;
+    margin-left: 10px;
+    font-weight: bold;
+  }
+  
+.button:active {
+    box-shadow: 0px 2px 0px #000873;
+    position: relative;
+    top: 2px;
+}
+.display {
+    margin-top: 50px;
+    font-size: 18px;
+}
+.heading {
+    background-color: #1E90FF;
+    color: white;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    height: 5rem;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: -10px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
